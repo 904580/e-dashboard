@@ -68,6 +68,28 @@
   display:block;
   margin-left: 20px;
 }
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li {
+  display:inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list ul {
+  margin:0;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border:1px solid skyblue;
+  padding-left: 20px;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -91,6 +113,9 @@
 
 .App-link {
   color: #61dafb;
+}
+.profile-item{
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
